@@ -5,15 +5,11 @@ export default function Service() {
     <>
       <section>
         <div className="h-screen">
-          <div className="bordure flex justify-center">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+          <div className="h-40 flex justify-center">
             <h1 className="text-6xl">mes services</h1>
           </div>
-          <div className="w-full sm:w-1/2">
-            <h1 className="flex justify-center">A voir pour le titre</h1>
+          <div className="h-40 w-full flex justify-center">
+            <h1 className="">A voir pour le titre</h1>
           </div>
           <div className="grid grid-cols-3 gap-4 divide-x divide-cyan-500 bg-gradient-to-b from-stone-800">
             <div className="card-body">
@@ -24,7 +20,7 @@ export default function Service() {
                 <li>1 page de contact</li>
                 <li>1 page entreprise et histoire</li>
                 <li>1 mention légales</li>
-                <li>1 page politique de confidentialité</li>
+                <li>1 site responsive</li>
               </ul>
               <br />
               <h4 className="text-2xl">La rédaction des pages</h4>
@@ -48,7 +44,7 @@ export default function Service() {
                 <span></span>
                 <span></span>
                 <span></span>
-                <h5>A partir de 500€ H.T</h5>
+                <h5>A partir de 1200 € H.T</h5>
               </div>
             </div>
 
