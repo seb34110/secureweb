@@ -4,7 +4,7 @@ export default function Service() {
   return (
     <>
       <section>
-        <div className="h-screen">
+        <div>
           <div className="h-40 flex justify-center">
             <h1 className="text-6xl">mes services</h1>
           </div>
