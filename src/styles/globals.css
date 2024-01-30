@@ -17,7 +17,7 @@ h1 {
   -moz-background-clip: text;
   background-clip: text;
   color: transparent;
-  text-shadow: rgb(3, 177, 177) 3px 5px 0px;
+  text-shadow: rgb(4, 148, 148) 3px 5px 0px;
 }
 
 .label {
