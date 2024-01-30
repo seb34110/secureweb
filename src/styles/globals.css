@@ -6,6 +6,7 @@ body {
   background-image: url("https://images.unsplash.com/photo-1529753253655-470be9a42781?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fHdvb2QlMjBibGFja3xlbnwwfHwwfHx8MA%3D%3D");
   background-size: content;
   background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 h1 {
