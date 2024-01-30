@@ -43,6 +43,13 @@ export default function Service() {
                 crée une stratégie de mots-clés sur mesure pour attirer du
                 trafic gratuit et qualifié sur le long terme.
               </p>
+              <div className="bordure text-xl font-bold">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <h5>A partir de 500€ H.T</h5>
+              </div>
             </div>
 
             <div className="card-body">
