@@ -15,12 +15,53 @@ export default function Service() {
             <div className="card-body">
               <h3 className="card-title text-2xl">Site vitrine sur mesure</h3>
               <ul>
-                <li>1 page d accueil</li>
+                <li className="pastille.vert:before">1 page d accueil</li>
                 <li>1 page produit ou service</li>
                 <li>1 page de contact</li>
                 <li>1 page entreprise et histoire</li>
                 <li>1 mention légales</li>
                 <li>1 site responsive</li>
+              </ul>
+              <br />
+              <h4 className="text-2xl">La rédaction des pages</h4>
+              <br />
+              <p>
+                Je rédige l’intégralité de votre contenu pour le rendre
+                attractif et optimisé pour le référencement naturel. La formule
+                idéale pour attirer, qualifier et convertir vos prospects en
+                clients.
+              </p>
+              <br />
+              <h4 className="text-2xl">Pack référencement complet</h4>
+              <br />
+              <p>
+                Je crée un site web responsive tout écran et optimisé pour les
+                moteurs de recherche et je crée une stratégie de mots-clés sur
+                mesure pour attirer du trafic gratuit et qualifié sur le long
+                terme.
+              </p>
+              <div className="bordure text-xl font-bold">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <h5>A partir de 1200 € H.T</h5>
+              </div>
+            </div>
+
+            <div className="card-body">
+              <h3 className="card-title text-2xl mx-auto">
+                Site de blog sur mesure
+              </h3>
+              <ul>
+                <li>1 page d accueil</li>
+                <li>1 page de blog</li>
+                <li>1 page de contact</li>
+                <li>1 news letters</li>
+                <li>1 base de données</li>
+                <li>1 page login pour vos membres</li>
+                <li>1 page mention légal</li>
+                <li>hébergements offert la première année</li>
               </ul>
               <br />
               <h4 className="text-2xl">La rédaction des pages</h4>
@@ -44,18 +85,22 @@ export default function Service() {
                 <span></span>
                 <span></span>
                 <span></span>
-                <h5>A partir de 1200 € H.T</h5>
+                <h5>A partir de 1500 € H.T</h5>
               </div>
             </div>
 
             <div className="card-body">
-              <h3 className="card-title">Site vitrine sur mesure</h3>
+              <h3 className="card-title text-2xl mx-auto">
+                Site de e-commerce sur mesure
+              </h3>
               <ul>
                 <li>1 page d accueil</li>
-                <li>1 page produit ou service</li>
+                <li>1 page de vos produits</li>
                 <li>1 page de contact</li>
-                <li>1 page entreprise et histoire</li>
-                <li>1 mention légales</li>
+                <li>1 news letters</li>
+                <li>1 base de données</li>
+                <li>1 page login pour vos clients</li>
+                <li>1 système de paiement par carte bleu et autres</li>
                 <li>1 page politique de confidentialité</li>
               </ul>
               <br />
@@ -75,35 +120,13 @@ export default function Service() {
                 crée une stratégie de mots-clés sur mesure pour attirer du
                 trafic gratuit et qualifié sur le long terme.
               </p>
-            </div>
-
-            <div className="card-body">
-              <h3 className="card-title">Site vitrine sur mesure</h3>
-              <ul>
-                <li>1 page d accueil</li>
-                <li>1 page produit ou service</li>
-                <li>1 page de contact</li>
-                <li>1 page entreprise et histoire</li>
-                <li>1 mention légales</li>
-                <li>1 page politique de confidentialité</li>
-              </ul>
-              <br />
-              <h4 className="text-2xl">La rédaction des pages</h4>
-              <br />
-              <p>
-                Je rédige l’intégralité de votre contenu pour le rendre
-                attractif et optimisé pour le référencement naturel. La formule
-                idéale pour attirer, qualifier et convertir vos prospects en
-                clients.
-              </p>
-              <br />
-              <h4 className="text-2xl">Pack référencement complet</h4>
-              <br />
-              <p>
-                Je crée un site web optimisé pour les moteurs de recherche et je
-                crée une stratégie de mots-clés sur mesure pour attirer du
-                trafic gratuit et qualifié sur le long terme.
-              </p>
+              <div className="bordure text-xl font-bold">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <h5>A partir de 2500 € H.T</h5>
+              </div>
             </div>
           </div>
         </div>

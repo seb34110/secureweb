@@ -17,8 +17,8 @@ export default function Header() {
               </a>
             </div>
             <div>
-              <ul className="md:text-xl lg:text-xl xl:text-xl 2xl:text-4xl ml-4 flex justify-end">
-                <li className="mr-3 hover:text-cyan-500">
+              <div className="md:text-xl lg:text-xl xl:text-xl 2xl:text-4xl ml-4 flex justify-end">
+                <div className="mr-3 hover:text-cyan-500">
                   <a href="./contact">
                     <button className="neonButton btn btn-ghost text-base md:text-lg">
                       <span></span>
@@ -28,8 +28,8 @@ export default function Header() {
                       Contact
                     </button>
                   </a>
-                </li>
-                <li className="hover:text-cyan-500">
+                </div>
+                <div className="hover:text-cyan-500">
                   <a href="./services">
                     <span></span>
                     <span></span>
@@ -43,8 +43,8 @@ export default function Header() {
                       Services
                     </button>
                   </a>
-                </li>
-              </ul>
+                </div>
+              </div>
             </div>
           </header>
         </div>

@@ -21,6 +21,29 @@ h1 {
   text-shadow: rgb(4, 148, 148) 3px 5px 0px;
 }
 
+.pastille-vert {
+  background-color: #00cbe5;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li:before {
+  content: "";
+  background-color: #00cbe5;
+  display: inline-block;
+  width: 5px; /* Largeur de la pastille */
+  height: 5px; /* Hauteur de la pastille */
+  margin-right: 5px; /* Espace entre la pastille et le texte de la liste */
+  border-radius: 50%; /* Pour créer une pastille circulaire */
+}
+
 .label {
   color: cyan;
 }
