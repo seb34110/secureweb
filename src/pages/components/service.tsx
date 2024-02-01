@@ -90,7 +90,7 @@ export default function Service() {
                 <span></span>
                 <span></span>
                 <span></span>
-                <h5>A partir de 1500 € H.T</h5>
+                <h5>A partir de 1800 € H.T</h5>
               </div>
             </div>
 

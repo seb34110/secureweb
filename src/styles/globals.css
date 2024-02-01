@@ -19,7 +19,24 @@ h1 {
   -moz-background-clip: text;
   background-clip: text;
   color: transparent;
-  text-shadow: #5e5f5f 3px 5px 0px;
+  text-shadow: #abadad 3px 5px 0px;
+}
+
+h2 {
+  background: #2919ff;
+  background: -webkit-repeating-linear-gradient(
+    to right,
+    #2919ff 0%,
+    #00cbe5 100%
+  );
+  background: -moz-repeating-linear-gradient(
+    to right,
+    #2919ff 0%,
+    #00cbe5 100%
+  );
+  background: repeating-linear-gradient(to right, #2919ff 0%, #00cbe5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h3 {
@@ -39,7 +56,7 @@ h3 {
   -webkit-text-fill-color: transparent;
 }
 
-h2 {
+h5 {
   background: #2919ff;
   background: -webkit-repeating-linear-gradient(
     to right,
@@ -55,6 +72,7 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .pastille-vert {
   background-color: #00cbe5;
 }
