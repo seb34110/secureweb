@@ -4,63 +4,25 @@ export default function Service() {
   return (
     <>
       <section>
-        <div>
+        <div className="flex flex-col items-center justify-center">
+          <div className="h-40">
+            <h1 className="text-5xl">mes services</h1>
+          </div>
           <div className="h-40 flex justify-center">
-            <h1 className="text-6xl">mes services</h1>
+            <h2 className="text-5xl">A voir pour le titre</h2>
           </div>
-          <div className="h-40 w-full flex justify-center">
-            <h1 className="">A voir pour le titre</h1>
-          </div>
-          <div className="grid grid-cols-3 gap-4 divide-x divide-cyan-500 bg-gradient-to-b from-stone-800">
-            <div className="card-body">
-              <h3 className="card-title text-2xl">Site vitrine sur mesure</h3>
-              <ul>
-                <li className="pastille.vert:before">1 page d accueil</li>
-                <li>1 page produit ou service</li>
-                <li>1 page de contact</li>
-                <li>1 page entreprise et histoire</li>
-                <li>1 mention légales</li>
-                <li>1 site responsive</li>
-              </ul>
-              <br />
-              <h4 className="text-2xl">La rédaction des pages</h4>
-              <br />
-              <p>
-                Je rédige l’intégralité de votre contenu pour le rendre
-                attractif et optimisé pour le référencement naturel. La formule
-                idéale pour attirer, qualifier et convertir vos prospects en
-                clients.
-              </p>
-              <br />
-              <h4 className="text-2xl">Pack référencement complet</h4>
-              <br />
-              <p>
-                Je crée un site web responsive tout écran et optimisé pour les
-                moteurs de recherche et je crée une stratégie de mots-clés sur
-                mesure pour attirer du trafic gratuit et qualifié sur le long
-                terme.
-              </p>
-              <div className="bordure text-xl font-bold">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <h5>A partir de 1200 € H.T</h5>
-              </div>
-            </div>
-
-            <div className="card-body">
-              <h3 className="card-title text-2xl mx-auto">
-                Site de blog sur mesure
+          <div className="flex flex-wrap divide-x divide-cyan-500 bg-gradient-to-b from-stone-800">
+            <div className="w-full md:w-1/3 p-4">
+              <h3 className="text-xl md:text-2xl font-bold mb-5">
+                Site vitrine sur mesure
               </h3>
               <ul>
                 <li>1 page d accueil</li>
-                <li>1 page de blog</li>
+                <li>1 page produit ou service</li>
                 <li>1 page de contact</li>
-                <li>1 news letters</li>
-                <li>1 base de données</li>
-                <li>1 page login pour vos membres</li>
-                <li>1 page mention légal</li>
+                <li>1 page entreprise et histoire</li>
+                <li>1 page mention légales</li>
+                <li>1 page politique de confidentialité</li>
                 <li>hébergements offert la première année</li>
               </ul>
               <br />
@@ -76,9 +38,52 @@ export default function Service() {
               <h4 className="text-2xl">Pack référencement complet</h4>
               <br />
               <p>
-                Je crée un site web optimisé pour les moteurs de recherche et je
-                crée une stratégie de mots-clés sur mesure pour attirer du
-                trafic gratuit et qualifié sur le long terme.
+                Je crée un site web responsif tout écran et optimisé pour les
+                moteurs de recherche et je crée une stratégie de mots-clés sur
+                mesure pour attirer du trafic gratuit et qualifié sur le long
+                terme.
+              </p>
+              <div className="bordure text-xl font-bold">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <h5>A partir de 1200 € H.T</h5>
+              </div>
+            </div>
+
+            <div className="w-full md:w-1/3 p-4">
+              <h3 className="text-xl md:text-2xl font-bold mb-5">
+                Site de blog sur mesure
+              </h3>
+              <ul>
+                <li>1 page d accueil</li>
+                <li>1 page de blog</li>
+                <li>1 page de contact</li>
+                <li>1 news letters</li>
+                <li>1 base de données</li>
+                <li>1 page login pour vos membres</li>
+                <li>1 page mention légal</li>
+                <li>1 page politique de confidentialité</li>
+                <li>hébergements offert la première année</li>
+              </ul>
+              <br />
+              <h4 className="text-2xl">La rédaction des pages</h4>
+              <br />
+              <p>
+                Je rédige l’intégralité de votre contenu pour le rendre
+                attractif et optimisé pour le référencement naturel. La formule
+                idéale pour attirer, qualifier et convertir vos prospects en
+                clients.
+              </p>
+              <br />
+              <h4 className="text-2xl">Pack référencement complet</h4>
+              <br />
+              <p>
+                Je crée un site web responsif tout écran et optimisé pour les
+                moteurs de recherche et je crée une stratégie de mots-clés sur
+                mesure pour attirer du trafic gratuit et qualifié sur le long
+                terme.
               </p>
               <div className="bordure text-xl font-bold">
                 <span></span>
@@ -89,8 +94,8 @@ export default function Service() {
               </div>
             </div>
 
-            <div className="card-body">
-              <h3 className="card-title text-2xl mx-auto">
+            <div className="w-full md:w-1/3 p-4">
+              <h3 className="text-xl md:text-2xl font-bold mb-5">
                 Site de e-commerce sur mesure
               </h3>
               <ul>
@@ -116,9 +121,10 @@ export default function Service() {
               <h4 className="text-2xl">Pack référencement complet</h4>
               <br />
               <p>
-                Je crée un site web optimisé pour les moteurs de recherche et je
-                crée une stratégie de mots-clés sur mesure pour attirer du
-                trafic gratuit et qualifié sur le long terme.
+                Je crée un site web responsif tout écran et optimisé pour les
+                moteurs de recherche et je crée une stratégie de mots-clés sur
+                mesure pour attirer du trafic gratuit et qualifié sur le long
+                terme.
               </p>
               <div className="bordure text-xl font-bold">
                 <span></span>

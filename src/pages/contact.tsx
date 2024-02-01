@@ -53,11 +53,7 @@ function Contact() {
         <div className="h-dvh">
           <div>
             <div className="justify-center grid grid-row gap-5 mt-10">
-              <h1 className="bordure sm:p-10 text-2xl md:p-10 lg:p-12 text-4xl">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
+              <h1 className="sm:p-10 text-6xl md:p-10 lg:p-12 text-4xl">
                 Contact
               </h1>
 
