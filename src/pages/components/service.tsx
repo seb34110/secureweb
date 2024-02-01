@@ -9,11 +9,11 @@ export default function Service() {
             <h1 className="text-5xl">mes services</h1>
           </div>
           <div className="h-40 flex justify-center">
-            <h2 className="text-5xl">A voir pour le titre</h2>
+            <h2 className="text-5xl text-center">A voir pour le titre</h2>
           </div>
           <div className="flex flex-wrap divide-x divide-cyan-500 bg-gradient-to-b from-stone-800">
             <div className="w-full md:w-1/3 p-4">
-              <h3 className="text-xl md:text-2xl font-bold mb-5">
+              <h3 className="text-center text-3xl md:text-4xl font-bold mb-5">
                 Site vitrine sur mesure
               </h3>
               <ul>
@@ -43,7 +43,7 @@ export default function Service() {
                 mesure pour attirer du trafic gratuit et qualifié sur le long
                 terme.
               </p>
-              <div className="bordure text-xl font-bold">
+              <div className="bordure text-2xl font-bold">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -53,7 +53,7 @@ export default function Service() {
             </div>
 
             <div className="w-full md:w-1/3 p-4">
-              <h3 className="text-xl md:text-2xl font-bold mb-5">
+              <h3 className="text-center text-3xl md:text-4xl font-bold mb-5">
                 Site de blog sur mesure
               </h3>
               <ul>
@@ -85,7 +85,7 @@ export default function Service() {
                 mesure pour attirer du trafic gratuit et qualifié sur le long
                 terme.
               </p>
-              <div className="bordure text-xl font-bold">
+              <div className="mt-5 bordure text-2xl font-bold">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -95,7 +95,7 @@ export default function Service() {
             </div>
 
             <div className="w-full md:w-1/3 p-4">
-              <h3 className="text-xl md:text-2xl font-bold mb-5">
+              <h3 className="text-center text-3xl md:text-4xl font-bold mb-5">
                 Site de e-commerce sur mesure
               </h3>
               <ul>
@@ -126,7 +126,7 @@ export default function Service() {
                 mesure pour attirer du trafic gratuit et qualifié sur le long
                 terme.
               </p>
-              <div className="bordure text-xl font-bold">
+              <div className="mt-5 bordure text-2xl font-bold">
                 <span></span>
                 <span></span>
                 <span></span>
