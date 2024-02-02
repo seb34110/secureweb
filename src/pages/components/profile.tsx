@@ -50,6 +50,7 @@ export default function Profile() {
                   className=""
                 />
               </div>
+              <div className="h-35 divider divider-info" />
             </div>
           </div>
         </div>
