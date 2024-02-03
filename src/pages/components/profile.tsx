@@ -1,5 +1,5 @@
 import Image from "next/image";
-//import Card from "./card";
+import CookieBanner from "./cookie";
 
 export default function Profile() {
   return (
@@ -11,7 +11,7 @@ export default function Profile() {
               SecureWeb Creation
             </h1>
           </div>
-          <div>
+          <div className="bg-gradient-to-b from-stone-900">
             <div className="text-4xl md:text-4xl lg:text-6xl font-bold mt-4 mb-10 text-center">
               <h2>
                 Développeur web front-end React, créons ensembles vos projets
@@ -73,6 +73,7 @@ export default function Profile() {
           </div>
         </div>
       </section>
+      <CookieBanner />
     </>
   );
 }
