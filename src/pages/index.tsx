@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Header from "./components/header";
 import Footer from "./components/footer";
-import Card from "./components/card";
 import Profile from "./components/profile";
 import { Inter } from "next/font/google";
 
