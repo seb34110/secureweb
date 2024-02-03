@@ -52,13 +52,13 @@ function Contact() {
       <section>
         <div className="flex flex-col items-center justify-center">
           <div className="justify-center grid gap-4 mt-10">
-            <h1 className="sm:p-10 text-6xl md:p-10 lg:p-12 text-4xl">
+            <h1 className="text-6xl sm:p-10 md:p-10 lg:p-12 text-4xl">
               Contact
             </h1>
 
             {/* Formulaire */}
             <form
-              className="flex justify-center text-2xl"
+              className="max-w-lg mx-auto text-2xl"
               onSubmit={handleSubmit(onSubmitHandler)}
             >
               {isSended && (
@@ -67,8 +67,8 @@ function Contact() {
                   rapidement.
                 </p>
               )}
-              <div>
-                <div>
+              <div className="space-y-4 text-lg">
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                   <div>
                     <label htmlFor="prenom" className="label">
                       Prénom
