@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <>
       <section>
-        <div className="w-full">
+        <div className="sticky flex flex-col max-h-screen max-w-screen">
           <header className="header flex items-center justify-between px-4 md:px-4 lg:px-8 xl:px-16 2xl:px-24 py-4">
             <div className="flex items-center">
               <a href="./">
