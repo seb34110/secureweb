@@ -13,12 +13,11 @@ export default function Header() {
                   width="40"
                   height="40"
                   alt="logo"
-                  className=""
                 />
               </a>
             </div>
             <div>
-              <div className="md:text-xl lg:text-xl xl:text-xl 2xl:text-4xl ml-4 flex justify-end">
+              <div className="md:text-lg lg:text-lg xl:text-lg ml-4 flex justify-end">
                 <div className="mr-3 hover:text-cyan-500">
                   <a href="./contact">
                     <button className="neonButton btn btn-ghost text-lg">
