@@ -12,7 +12,8 @@ export default function Service() {
             <h2 className="text-5xl text-center">Site web React</h2>
           </div>
           <div className="flex flex-wrap  bg-gradient-to-b from-stone-900">
-            <div className="divide-y divide-cyan-500 w-full md:w-1/3 p-3">
+            <div className="w-full md:w-1/3 p-3">
+              <div className="divider divider-info"></div>
               <h3 className="text-center text-3xl md:text-4xl font-bold mb-5">
                 Site vitrine sur mesure
               </h3>
@@ -51,7 +52,8 @@ export default function Service() {
                 <h5>A partir de 1200 € H.T</h5>
               </div>
             </div>
-            <div className="divide-y divide-cyan-500 w-full md:w-1/3 p-3">
+            <div className="w-full md:w-1/3 p-3">
+              <div className="divider divider-info"></div>
               <h3 className="text-center text-3xl md:text-4xl font-bold mb-5">
                 Site de blog sur mesure
               </h3>
@@ -93,7 +95,8 @@ export default function Service() {
               </div>
             </div>
 
-            <div className="divide-y divide-cyan-500 w-full md:w-1/3 p-3">
+            <div className="w-full md:w-1/3 p-3">
+              <div className="divider divider-info"></div>
               <h3 className="text-center text-3xl md:text-4xl font-bold mb-5">
                 Site de e-commerce sur mesure
               </h3>
