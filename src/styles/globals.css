@@ -96,8 +96,12 @@ li:before {
   border-radius: 50%; /* Pour créer une pastille circulaire */
 }
 
+.contact {
+  box-shadow: 0 10px 15px -3px #00cbe5, 0 4px 6px -2px #00cbe5;
+}
+
 .label {
-  color-scheme: rgb(221, 217, 217);
+  color: #00cbe5;
 }
 
 .btn {

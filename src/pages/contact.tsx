@@ -50,15 +50,13 @@ function Contact() {
     <>
       <Header />
       <section>
-        <div className="flex flex-col items-center justify-center">
-          <div className="justify-center grid gap-4 mt-10">
-            <h1 className="text-6xl sm:p-10 md:p-10 lg:p-12 text-4xl">
-              Contact
-            </h1>
+        <div className="p-10">
+          <div className="contact h-2xl min-h-screen w-full text-xl">
+            <h1 className="flex justify-center text-4xl mb-10">Contact</h1>
 
             {/* Formulaire */}
             <form
-              className="max-w-lg mx-auto text-2xl"
+              className="max-w-8xl mx-auto text-2xl ml-4 sm:flex justify-center"
               onSubmit={handleSubmit(onSubmitHandler)}
             >
               {isSended && (
@@ -68,7 +66,7 @@ function Contact() {
                 </p>
               )}
               <div className="space-y-4 text-lg">
-                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <div className="sm:grid-cols-2">
                   <div>
                     <label htmlFor="prenom" className="label">
                       Prénom
@@ -135,7 +133,7 @@ function Contact() {
                 </div>
                 <div>
                   {!isLoading && (
-                    <button className="neonButton mt-10 mb-5">
+                    <button className="neonButton btn btn-ghost mt-10 mb-5">
                       <span></span>
                       <span></span>
                       <span></span>
