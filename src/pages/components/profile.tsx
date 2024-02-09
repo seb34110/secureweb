@@ -58,11 +58,13 @@ export default function Profile() {
                     <h1>Portfolio</h1>
                   </a>
                 </div>
+                <br />
                 <div className="bordure flex">
                   <a href="./contact">
                     <h1>Contact</h1>
                   </a>
                 </div>
+                <br />
                 <div className="bordure flex">
                   <a href="./services">
                     <h1>Services</h1>
