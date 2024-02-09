@@ -1,11 +1,12 @@
 import Image from "next/image";
+import useScroll from "next/router";
 
 export default function Service() {
   return (
     <>
       <section>
         <div className="flex flex-col items-center justify-center">
-          <div className="h-40">
+          <div className="h-40 flex justify-center">
             <h1 className="text-5xl">mes services</h1>
           </div>
           <div className="h-40 flex justify-center">
@@ -25,6 +26,11 @@ export default function Service() {
                 <li>1 page mention légales</li>
                 <li>1 Banière gestion cookies RGPD</li>
                 <li>hébergements offert la première année</li>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
               </ul>
               <br />
               <h4 className="text-2xl">La rédaction des pages</h4>
@@ -44,14 +50,16 @@ export default function Service() {
                 mesure pour attirer du trafic gratuit et qualifié sur le long
                 terme.
               </p>
-              <div className="mt-5 bordure text-2xl font-bold">
+              <br />
+              <div className="bordure text-2xl font-bold">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
-                <h5>A partir de 1200 € H.T</h5>
+                <h5>A partir de 1200€</h5>
               </div>
             </div>
+
             <div className="w-full md:w-1/3 p-3">
               <div className="divider divider-info"></div>
               <h3 className="text-center text-3xl md:text-4xl font-bold mb-5">
@@ -67,6 +75,8 @@ export default function Service() {
                 <li>1 page mention légal</li>
                 <li>1 Banière gestion cookies RGPD</li>
                 <li>hébergements offert la première année</li>
+                <br />
+                <br />
               </ul>
               <br />
               <h4 className="text-2xl">La rédaction des pages</h4>
@@ -86,12 +96,13 @@ export default function Service() {
                 mesure pour attirer du trafic gratuit et qualifié sur le long
                 terme.
               </p>
-              <div className="mt-5 bordure text-2xl font-bold">
+              <br />
+              <div className="bordure text-2xl font-bold">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
-                <h5>A partir de 2000 € H.T</h5>
+                <h5>A partir de 2000€</h5>
               </div>
             </div>
 
@@ -129,20 +140,21 @@ export default function Service() {
                 mesure pour attirer du trafic gratuit et qualifié sur le long
                 terme.
               </p>
-              <div className="mt-5 bordure text-2xl font-bold">
+              <br />
+              <div className="bordure text-2xl font-bold">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
-                <h5>A partir de 3000 € H.T</h5>
+                <h5>A partir de 3500€</h5>
               </div>
             </div>
           </div>
           <div className="divider divider-info"></div>
-          <div className="h-40 flex justify-center">
+          <div className="h-40 flex items-center justify-center">
             <h2 className="text-5xl text-center">Site web WordPress</h2>
           </div>
-          <div className="flex flex-wrap bg-gradient-to-b from-stone-900">
+          <div className="flex flex-wrap w-full">
             <div className="w-full md:w-1/3 p-3">
               <div className="divider divider-info"></div>
               <h3 className="text-center text-3xl md:text-4xl font-bold mb-5">
@@ -157,12 +169,12 @@ export default function Service() {
                 <li>hébergements offert la première année</li>
               </ul>
               <br />
-              <div className="mt-5 bordure text-2xl font-bold">
+              <div className="bordure text-2xl font-bold">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
-                <h5>A partir de 500 € H.T</h5>
+                <h5>A partir de 500€</h5>
               </div>
             </div>
 
@@ -181,12 +193,12 @@ export default function Service() {
                 <li>hébergements offert la première année</li>
               </ul>
               <br />
-              <div className="mt-5 bordure text-2xl font-bold">
+              <div className="bordure text-2xl font-bold">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
-                <h5>A partir de 900 € H.T</h5>
+                <h5>A partir de 900€</h5>
               </div>
             </div>
 
@@ -207,14 +219,24 @@ export default function Service() {
                 <li>1 Banière gestion cookies RGPD</li>
               </ul>
               <br />
-              <div className="mt-5 bordure text-2xl font-bold">
+              <div className="bordure text-2xl font-bold">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
-                <h5>A partir de 1800 € H.T</h5>
+                <h5>A partir de 1800€</h5>
               </div>
             </div>
+          </div>
+          <div>
+            <button onClick={() => scrollTo("my-element", 100)}>
+              <Image
+                src="/logos/up-arrow.png"
+                width="64"
+                height="64"
+                alt="scroll up"
+              />
+            </button>
           </div>
         </div>
       </section>

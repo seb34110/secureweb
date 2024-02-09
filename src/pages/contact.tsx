@@ -52,7 +52,7 @@ function Contact() {
       <section>
         <div className="p-10">
           <div className="contact h-2xl min-h-screen w-full text-xl">
-            <h1 className="flex justify-center text-4xl mb-10">Contact</h1>
+            <h1 className="flex justify-center text-5xl mb-10">Contact</h1>
 
             {/* Formulaire */}
             <form
