@@ -10,12 +10,6 @@ body {
   background-attachment: fixed;
 }
 
-.titre {
-  background-image: url(https://img.freepik.com/photos-gratuite/composition-effets-meteorologiques_23-2149853311.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 h1 {
   text-transform: uppercase;
   font-size: 35px;
