@@ -228,16 +228,6 @@ export default function Service() {
               </div>
             </div>
           </div>
-          <div>
-            <button onClick={() => scrollTo("onClick", 100)}>
-              <Image
-                src="/logos/up-arrow.png"
-                width="64"
-                height="64"
-                alt="scroll up"
-              />
-            </button>
-          </div>
         </div>
       </section>
     </>
