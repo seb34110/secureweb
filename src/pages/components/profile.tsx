@@ -7,16 +7,13 @@ export default function Profile() {
       <section>
         <div className="flex flex-col items-center justify-center">
           <div className="text-center">
-            <h1 className="text-5xl md:text-6xl lg:text-8xl font-bold mb-10">
+            <h1 className="text-6xl lg:text-8xl font-bold mb-10">
               SecureWeb Creation
             </h1>
           </div>
           <div className="bg-gradient-to-b from-stone-900">
-            <div className="text-4xl md:text-4xl lg:text-6xl font-bold mt-4 mb-10 text-center">
-              <h2>
-                Développeur web front-end React, créons ensembles vos projets
-                Web.
-              </h2>
+            <div className="mt-5 uppercase font-bold text-4xl lg:text-6xl text-center">
+              <h2>Développeur web React, créons ensembles vos projets Web.</h2>
               <div className="flex flex-col sm:flex-row items-center justify-center sm:grid mt-10 md:grid-cols-2 gap-4 md:flex justify-center h-38">
                 <div className="flex-shrink-0">
                   <Image
@@ -24,7 +21,7 @@ export default function Profile() {
                     width="128"
                     height="128"
                     alt="react-logo"
-                    className=""
+                    className="animate-pulse"
                   />
                 </div>
 
@@ -34,14 +31,16 @@ export default function Profile() {
                     width="220"
                     height="220"
                     alt="wordpress-logo"
-                    className=""
+                    className="animate-pulse"
                   />
                 </div>
               </div>
               <div className="h-35 divider divider-info" />
-              <h2 className="text-4xl md:text-4xl lg:text-6xl font-bold mt-4 mb-10">
-                Des sites web responsive.
-              </h2>
+              <div className=" h-20">
+                <h2 className="uppercase font-bold text-4xl lg:text-6xl">
+                  Des sites web responsive.
+                </h2>
+              </div>
               <div className="flex flex-col sm:flex-row items-center justify-center sm:grid mt-10 md:grid-cols-2 gap-4 md:flex justify-center h-38">
                 <Image
                   src="/logos/responsiveDessign.png"
